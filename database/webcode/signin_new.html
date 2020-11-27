@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>美食地圖</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style>
+    input[type="submit"]{padding:5px 15px; background:#ccc; border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; }
+	
+	input[type="button"]{padding:5px 15px; background:#ccc; border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; }
+    
+    input[type="text"]{padding:5px 150px; border:2px black solid;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; }
+	
+	</style>
+</head>
+<body bgcolor="#FFFAFA">
+	
+	<h1 align="center" style="margin-top: 25px">登入</h1>
+	<h2 align='center'><img src="https://i.imgur.com/xZg3RoM.gif" /></h2>
+	<form action="signin_account.php" method="post">	
+
+	<h3 align='center'><th>登入類別：</th>
+	<input  type="radio" name="identity" value='1'>管理者
+	<input  type="radio" name="identity" value='0' >消費者</td></h3>
+
+	<h3 align='center'><th>帳號：</th>
+	<input type="text" name="account" /></h3>
+
+	<h3 align='center'><th>密碼：</th>
+	<input type="text" name="password"  /></h3>
+
+	<h3 align='center'>
+		<input type="submit" value="登入"/>
+		<input type ="button" onclick="javascript:location.href='register_new.html'" value="我還沒註冊">
+		</input></h3>
+	</form>
+	
+</body>
+</html>

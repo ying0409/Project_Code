@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>美食地圖</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style>
+    input[type="submit"]{padding:5px 15px; background:#ccc; border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; }
+	
+	input[type="button"]{padding:5px 15px; background:#ccc; border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; }
+    
+    input[type="text"]{padding:5px 150px; border:2px black solid;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; }
+	
+	</style>
+</head>
+<body bgcolor="#FFFAFA">
+
+	<h1 align="center" style="margin-top: 25px">註冊</h1>
+	<h2 align='center'><img src="https://i.imgur.com/xZg3RoM.gif" /></h2>
+	
+	<form action="create_account.php" method="post">
+	
+	<h3 align='center'><th>註冊類別：</th>
+	<input  type="radio" name="identity" value='1'>管理者
+	<input  type="radio" name="identity" value='0' >消費者</h3>
+	
+	<h3 align='center'><th>姓名：</th>
+	<input type="text" name="name"  /></h3>
+		
+	<h3 align='center'><th>帳號：</th>
+	<input type="text" name="account" /></h3>
+		
+	<h3 align='center'><th>密碼：</th>
+	<input type="text" name="password"  /></h3>
+		
+	<h3 align='center'><th>信箱：</th>
+	<input type="text" name="email"  /></h3>
+		
+	<h3 align='center'>
+		<input type="submit" value="註冊"/>
+		<input type ="button" onclick="javascript:location.href='signin_new.html'" value="我已經有帳號">
+	</h3>
+	</div>
+	</form>
+	
+</body>
+</html>
